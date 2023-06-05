@@ -6,3 +6,10 @@ insert_final_newline = true
 indent_size = 4
 indent_style = space
 trim_trailing_whitespace = true
+
+[*.{c,h}]
+end_of_line = lf
+insert_final_newline = true
+indent_size = 4
+indent_style = tab
+trim_trailing_whitespace = true
