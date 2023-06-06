@@ -5,7 +5,7 @@ print("Last digit of", number,  end="")
 last = abs(number) % 10
 if number < 0:
     last *= -1
-print("", last, end="")
+print(" is ", last, end="")
 if last == 0:
     print(" and is 0")
 elif last > 5:

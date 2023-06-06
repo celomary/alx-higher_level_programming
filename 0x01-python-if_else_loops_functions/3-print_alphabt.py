@@ -1,2 +1,5 @@
 #!/usr/bin/python3
-print("abcdfghijklmnoprstuvwxyz", end="")
+for i in range(26):
+    if chr(ord('a') + i) == 'q' or chr(ord('a') + i) == 'e':
+        continue
+    print("{}".format(chr(ord('a') + i)), end="")
