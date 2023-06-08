@@ -2,8 +2,6 @@
 from sys import argv
 from calculator_1 import (add, sub, div, mul)
 
-
-
 if __name__ == '__main__':
     operations = {
         "+": add,
