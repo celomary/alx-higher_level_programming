@@ -2,4 +2,4 @@
 def best_score(a_dictionary):
     if not a_dictionary or not len(a_dictionary):
         return
-    return max(a_dictionary.items(), key= lambda x: x[1])[0]
+    return max(a_dictionary.items(), key=lambda x: x[1])[0]
