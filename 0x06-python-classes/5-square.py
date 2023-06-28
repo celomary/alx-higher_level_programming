@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """Class Square Package."""
+
+
 class Square:
     """Class Square."""
 
@@ -30,7 +32,7 @@ class Square:
         self.__size = value
 
     def my_print(self):
-        """My_print - function that render the area of the square using # character."""
+        """My_print - function that render the area of the square."""
         if self.__size == 0:
             print()
         for _ in range(self.__size):
