@@ -1,6 +1,10 @@
 #!/usr/bin/python3
+"""Class Square Package."""
 class Square:
+    """Class Square."""
+
     def __init__(self, size=0):
+        """Square constructor."""
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         if size < 0:
@@ -8,4 +12,5 @@ class Square:
         self.__size = size
 
     def area(self):
+        """Area Method Calcuates The Area Of The Square."""
         return self.__size ** 2
