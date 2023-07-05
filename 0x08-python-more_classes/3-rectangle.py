@@ -64,5 +64,5 @@ class Rectangle:
         _str = ""
         for _ in range(self.height):
             _str += "#" * self.width
-            _str += "\n" if self.height - 1 == _ else ""
+            _str += "\n" if _ + 1 != self.height else ""
         return _str
