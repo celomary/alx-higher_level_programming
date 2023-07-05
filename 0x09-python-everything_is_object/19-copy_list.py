@@ -1,4 +1,8 @@
 #!/usr/bin/python3
 
+"""copy list module."""
+
+
 def copy_list(lst):
-    return lst.copy()
+    """Copy list of elements."""
+    return lst[:]
