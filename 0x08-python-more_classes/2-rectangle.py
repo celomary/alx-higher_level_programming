@@ -7,7 +7,7 @@ class Rectangle:
     """Rectangle Class."""
 
     def __init__(self, width=0, height=0):
-        """__init__ Rectangle constructor."""
+        """Rectangle constructor."""
         if not isinstance(width, int):
             raise TypeError("width must be an integer")
         if not isinstance(height, int):
