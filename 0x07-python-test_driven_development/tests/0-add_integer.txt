@@ -1,0 +1,29 @@
+
+test two integer
+----------------
+>>> add_integer(5, 10)
+15
+::
+test with floating points
+-------------------------
+>>> add_integer(3.14, 2.86)
+6
+::
+test with one integer
+---------------------
+>>> add_integer(10)
+108
+::
+test when the first argument is not float or number
+---------------------------------------------------
+>>> add_integer('5', 10)
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer
+::
+test when the second argument is not float or number
+----------------------------------------------------
+>>> add_integer(5, '10')
+Traceback (most recent call last):
+    ...
+TypeError: b must be an integer

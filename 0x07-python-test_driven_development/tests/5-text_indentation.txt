@@ -1,0 +1,14 @@
+test if it will preform well wotj normal sentence
+-------------------------------------------------
+>>> text_indentation("Hello. This is a sentence. Is it clear?")
+Hello.
+This is a sentence.
+Is it clear?
+
+>>> text_indentation("Lorem ipsum dolor sit amet.")
+Lorem ipsum dolor sit amet.
+
+>>> text_indentation(123)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string

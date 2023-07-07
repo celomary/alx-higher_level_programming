@@ -1,0 +1,23 @@
+check the function by giving it first name and last name
+--------------------------------------------------------
+>>> say_my_name("Mohamed", "Elomary")
+'Mohamed Elomary'
+::
+check the function with only first name
+---------------------------------------
+>>> say_my_name("Jane")
+'Jane'
+::
+check wether it raises error if you give it something different than number
+---------------------------------------------------------------------------
+>>> say_my_name(123)
+Traceback (most recent call last):
+    ...
+TypeError: first_name must be a string
+::
+check if it raises error but this time with second argument
+-----------------------------------------------------------
+>>> say_my_name("Alice", 456)
+Traceback (most recent call last):
+    ...
+TypeError: last_name must be a string
